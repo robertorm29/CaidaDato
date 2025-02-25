@@ -1,0 +1,13 @@
+﻿@model CaidaDato.Models.CaidaDatoModel
+
+@{
+    ViewData["Title"] = "Resultado de Cálculo";
+}
+
+<h2>Resultado del Cálculo</h2>
+
+<p>Valor Inicial: @Model.ValorInicial</p>
+<p>Valor Final después de la caída: @Model.ValorFinal</p>
+<p>Número al Azar generado: @Model.NumeroAzar</p>
+
+<a asp-action="Index">Volver</a>

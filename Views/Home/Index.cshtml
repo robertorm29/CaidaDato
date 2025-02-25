@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Calculadora de Caída de Dato";
+}
+
+<h2>Calculadora de Caída de Dato</h2>
+
+<form asp-controller="Home" asp-action="CalcularCaida" method="post">
+    <label for="valorInicial">Ingrese un valor:</label>
+    <input type="number" name="valorInicial" step="0.01" required />
+    <button type="submit">Calcular</button>
+</form>
